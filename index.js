@@ -49,3 +49,28 @@ var student={
 console.log(student);
 var student2=student;
 console.log(student2);
+
+
+var student={
+    name:'Naveen',
+    age:23,
+    adrress:{
+        city:'hiriyur',
+        state:'karnataka',
+        pin:577598,
+    },
+
+    hobbies:['gaming','running','cooking','reading','watching games'],
+
+}
+
+console.log(student.name);
+console.log(student.address.state);
+console.log(student.hobbies[4])
+
+//loop:
+for(i=0;i<=student.hobbies.lenght-1;i++)
+
+{
+    console.log(student.hobbies[i]);
+}
